@@ -1,4 +1,5 @@
 # integer exponentiation
+# 2^3 = 8, n^m = ?
 
 def exponent(x, y):
     if y == 0:
@@ -7,7 +8,7 @@ def exponent(x, y):
         return x*exponent(x, y-1)
 print(exponent(2, 3))
 
-#another way
+#another way: for even and odd
 
 def exponent(x, y):
     if y == 0:
